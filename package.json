@@ -1,0 +1,24 @@
+{
+  "name": "vue-chart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddychen86/vue-chart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddychen86/vue-chart/issues"
+  },
+  "homepage": "https://github.com/eddychen86/vue-chart#readme",
+  "dependencies": {
+    "@vue/cli": "^5.0.1",
+    "axios": "^0.26.0",
+    "vue": "^3.2.31"
+  }
+}
