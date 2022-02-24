@@ -34,13 +34,15 @@ export default {
       this.count++;
     },
     changeLink() {
-      if ((this.ifBtnActive = !this.ifBtnActive)) {
+      console.log(this.ifBtnActive)
+      if (this.ifBtnActive) {
         this.linkName = "Facebook";
         this.link = "http://www.facebook.com";
-      } else if (this.ifBtnActive != !this.ifBtnActive) {
+      } else {
         this.linkName = "GitHub";
         this.link = "https://github.com/";
       }
+      this.ifBtnActive = !this.ifBtnActive
     },
     ToggleActive() {
       this.ifActive = !this.ifActive;

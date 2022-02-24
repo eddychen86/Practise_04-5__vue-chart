@@ -29,4 +29,8 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
 </style>
